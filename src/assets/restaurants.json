@@ -1,0 +1,58 @@
+{"rests":[
+    {"type":"pizza",
+        
+        "list":[
+            {"states":["california"], "name":"pizza hut"}
+        ]
+    },
+    {"type":"hamburger",
+        
+        "list":[
+            {"states":["california"], "name":"In and Out"},
+            {"states":["california"], "name":"McDonalds"},
+            {"states":["california"], "name":"Wendys"}
+        ]
+    },
+    {"type":"dogs",
+        
+        "list":[
+            {"states":["california"], "name":"Coney Island"}
+        ]
+    },
+    {"type":"mideast",
+        
+        "list":[
+            {"states":["california"], "name":"Falafel King"}
+        ]
+    },
+    {"type":"chinese",
+        
+        "list":[
+            {"states":["california"], "name":"Panda Express"}
+        ]
+    },
+    {"type":"sandwiches",
+        
+        "list":[
+            {"states":["california"], "name":"Subway"}
+        ]
+    },
+    {"type":"icecream",
+        
+        "list":[
+            {"states":["california"], "name":"Ben and Jerrys"}
+        ]
+    },
+    {"type":"diner",
+        
+        "list":[
+            {"states":["california"], "name":"Dennys"}
+        ]
+    },
+    {"type":"coffee",
+        
+        "list":[
+            {"states":["california"], "name":"Star Bucks"}
+        ]
+    }
+]}

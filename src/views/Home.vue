@@ -1,18 +1,33 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   <h1>{{title}}</h1>
+    <Nationmap/>
+    <Filterbar/>
+    <Fullgrid/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Nationmap from "@/components/Nationmap.vue"
+import Filterbar from "@/components/Filterbar.vue"
+import Fullgrid from "@/components/FullGrid.vue"
 
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
+  components:{
+    Nationmap,
+    Filterbar,
+     Fullgrid
+  },
+  data(){
+    return {
+      title:"fast food nation"
+    }
   }
 }
 </script>
+<style lang="scss">
+  .home{
+    overflow-y:scroll
+}
+</style>
